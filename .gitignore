@@ -1,0 +1,22 @@
+# Data — never commit (701 MB)
+*.hdf5
+*.h5
+data/*.hdf5
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Colab / Jupyter artifacts
+.virtual_documents/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Checkpoints (large)
+*.pt
+*.pth
+checkpoints/
