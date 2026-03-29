@@ -72,14 +72,13 @@ Both train loss and validation MSE converge smoothly with no overfitting. The ga
 
 ### Reconstructed Images
 
-![Reconstructed Jet Images](assets/ANN_Reconstructed_Images.png)
+![Reconstructed Jet Images](results/ANN_Reconstructed_Images.png)
 
 The autoencoder successfully localises the jet core and key energy deposits. The reconstructions preserve the spatial structure of the jet, though fine-grained noise in the tails is smoothed — a consequence of the sparsity regularizer and signal-weighted loss.
 
 ### Per-Image Reconstruction MSE Distribution
 
-![Per-Image MSE Distribution](assets/Per_Image_reconstructed_images.png)
-
+![Per Image Reconstruction](results/Per_Image_reconstructed_images.png)
 | Metric | Value |
 |--------|-------|
 | Mean per-image MSE | **0.0041** |
@@ -181,7 +180,8 @@ This is correct non-local / self-attention — long-range within each jet, with 
 
 ### Comparison
 
-![Non-local GNN vs Baseline Comparison](assets/Comparision_NonLocalGnn_vs_Gnn.png)
+![Comparison](results/Comparison_NonLocalGnn_vs_Gnn.png)
+
 
 **ROC Curves (left):** Both models achieve nearly identical AUC (~0.784), with the ROC curves overlapping throughout. This suggests the non-local block does not hurt performance.
 
