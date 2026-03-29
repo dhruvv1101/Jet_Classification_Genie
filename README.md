@@ -180,7 +180,7 @@ This is correct non-local / self-attention — long-range within each jet, with 
 
 ### Comparison
 
-![Comparison](results/Comparison_NonLocalGnn_vs_Gnn.png)
+![Comparison](results/Comparision_NonLocalGnn_vs_Gnn.png)
 
 
 **ROC Curves (left):** Both models achieve nearly identical AUC (~0.784), with the ROC curves overlapping throughout. This suggests the non-local block does not hurt performance.
