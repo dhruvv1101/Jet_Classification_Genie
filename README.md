@@ -66,7 +66,7 @@ Loss = 5 × MSE(signal pixels) + 0.1 × MSE(background pixels) + 0.001 × L1 spa
 
 ### Training Curve
 
-![Autoencoder Training Curve](assets/ae_loss_curve.png)
+![Autoencoder Training Curve](results/ae_loss_curve.png)
 
 Both train loss and validation MSE converge smoothly with no overfitting. The gap between train and val curves narrows progressively over 30 epochs, settling near ~0.0002 (train) and ~0.0008 (val MSE).
 
