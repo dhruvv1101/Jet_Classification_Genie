@@ -1,6 +1,6 @@
 # Jet Classification — GENIE Project (GSoC 2026)
 
-This repository contains the source code and results for the **GENIE Jet Classification** evaluation tasks, developed as part of the project **[Graph Neural Networks for Jet Classification — GENIE / ML4SCI GSoC 2026](https://ml4sci.org/gsoc/2026/proposal_GENIE1.html)**.
+This repository contains the source code and results for the **GENIE Jet Classification** evaluation tasks, developed as part of the project **[Graph Neural Networks for Jet Classification — GENIE / ML4SCI GSoC 2026](https://ml4sci.org/gsoc/2026/proposal_GENIE4.html)**.
 
 ---
 
